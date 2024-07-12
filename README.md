@@ -32,14 +32,14 @@ The objective of this project is to analyze the Netflix dataset to uncover patte
 - description: The Summary description
 
 # Conclusion
-- Key Findings from EDA: Netflix hosts more movies than TV shows, with the total number of shows increasing significantly over time.The majority of shows were produced in the United States, catering predominantly to adult and young adult audiences.
+- *Key Findings from EDA*: Netflix hosts more movies than TV shows, with the total number of shows increasing significantly over time.The majority of shows were produced in the United States, catering predominantly to adult and young adult audiences.
 
-- Clustering Approach: We decided to cluster the data based on attributes such as director, cast, country, genre, and description. These attributes were tokenized, preprocessed, and then vectorized using TFIDF vectorizer.
+- *Clustering Approach*: We decided to cluster the data based on attributes such as director, cast, country, genre, and description. These attributes were tokenized, preprocessed, and then vectorized using TFIDF vectorizer.
 
-- Feature Engineering: Using TFIDF Vectorization, we generated 20,000 attributes.
+- *Feature Engineering*: Using TFIDF Vectorization, we generated 20,000 attributes.
 
-- Dimensionality Reduction: Principal Component Analysis (PCA) was applied to reduce dimensionality. We found that 4,000 components captured over 80% of the variance, so we limited the components to 4,000.
+- *Dimensionality Reduction*: Principal Component Analysis (PCA) was applied to reduce dimensionality. We found that 4,000 components captured over 80% of the variance, so we limited the components to 4,000.
 
-- Clustering Algorithms: K-Means Clustering: Utilized the elbow method and Silhouette score analysis to determine an optimal number of 6 clusters. Agglomerative Clustering: Employed dendrogram visualization to identify 12 optimal clusters.
+- *Clustering Algorithms*: K-Means Clustering: Utilized the elbow method and Silhouette score analysis to determine an optimal number of 6 clusters. Agglomerative Clustering: Employed dendrogram visualization to identify 12 optimal clusters.
 
-- Content-Based Recommender System: We developed a content-based recommender system using cosine similarity. This system provides 10 recommendations based on the type of show a user has watched.
+- *Content-Based Recommender System*: We developed a content-based recommender system using cosine similarity. This system provides 10 recommendations based on the type of show a user has watched.
